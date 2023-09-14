@@ -4,7 +4,7 @@ public class Arrays
     {
         String[] strArray = {"Alpha","Bravo","Charlie","Delta","Echo"};
         for (int i = 1; i < strArray.length; i++) {
-            strArray[i] = strArray[i] + strArray[i-1];
+            System.out.println(strArray[iterate]);
         }
     }
 }
