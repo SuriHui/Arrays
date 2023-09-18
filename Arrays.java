@@ -14,7 +14,9 @@ public class Arrays
         System.out.println(" ");
         for (iterate = 0; iterate < strArray.length; iterate++) {
             System.out.print(strArray[iterate]);
-            System.out.print("-");
+            if (iterate < strArray.length - 1) {
+                System.out.print("-");
+            }
         }
     }
 }
